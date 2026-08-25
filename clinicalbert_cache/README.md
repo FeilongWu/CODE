@@ -1,0 +1,1 @@
+Pre-trained models (e.g., ClinicalBERT) will be saved here.
