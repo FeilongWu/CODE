@@ -1,0 +1,1 @@
+To prepare data for IHM, LOS, and SSC, go to "/extract_MIMICIII" and follow the implementation in the Jupyter notebook. This requires MIMIC-III stored in your PostgreSQL. After preparation, manually place the files "mortality_data.pickle", "los_data.pickle", and "sepsis_data.pickle" under this folder. 
