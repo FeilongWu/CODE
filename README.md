@@ -2,10 +2,14 @@
 ## (EMNLP 2026)
 This implementation contains CODE for classification tasks and its validation using synthetic notes. CODE is a diffusion-based model to recover complete semantics of a [CLS] embedding of a incomplete note.
 ## Data Preparation
-For MIMIC-III, please follow the instructions under "/data". To prepare synthetic notes for validation, run "create_incomplete.py" under "synthetic_report".
+For MIMIC-III, please follow the instructions under "/data". To prepare synthetic notes for validation, run "create_incomplete.py" under "synthetic_report". Raw synthetic notes are provided as "synthetic_reports.pickle".
 
 ## Train
 Use the following command to train and test CODE.
 ```console
 python main.py
+```
+Use the following command to train and test CODE on synthetic notes.
+```console
+python main_synthetic.py
 ```
