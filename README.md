@@ -6,6 +6,6 @@ For MIMIC-III, please follow the instructions under "/data". To prepare syntheti
 
 ## Train
 Use the following command to train and test CODE.
-'''console
+```console
 python main.py
-'''
+```
